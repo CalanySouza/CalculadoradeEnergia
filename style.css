@@ -76,3 +76,22 @@ button:hover {
   border-radius: 8px;
   line-height: 1.6;
 }
+#resultado:empty {
+  display: none;
+}
+#resultado.erro {
+  border-left-color: #e5534b;
+  color: #ffb4ae;
+}
+button.secundario {
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid #2a313c;
+  color: #8b92a0;
+}
+
+button.secundario:hover {
+  border-color: #e08d45;
+  color: #e08d45;
+  background-color: transparent;
+}

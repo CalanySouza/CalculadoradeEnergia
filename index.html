@@ -12,9 +12,20 @@
   <div class="calculadora">
     <h1>Calculadora de Energia</h1>
     <section>
-      <label for="potencia">Potência (W):</label>
+      <label for="potencia">Potência (W)</label>
       <input type="number" id="potencia" placeholder="Ex: 5500">
-      <button id="Calcular">Calcular</button>
+
+      <label for="horas">Horas de uso por dia</label>
+      <input type="number" id="horas" placeholder="Ex: 1">
+
+      <label for="dias">Dias de uso no mês</label>
+      <input type="number" id="dias" placeholder="Ex: 30">
+
+      <label for="tarifa">Tarifa por kWh (R$)</label>
+      <input type="number" id="tarifa" step="0.01" placeholder="Ex: 0.90">
+
+      <button id="calcular">Calcular</button>
+      <button id="limpar" class="secundario">Limpar</button>
       <div id="resultado"></div>
   </div>
   </section>
